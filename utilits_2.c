@@ -8,7 +8,7 @@ void	error(int e)
 {
 	ft_putstr("Error\n");
 	if (e == 1)
-		ft_putstr("Неверное кол-во аргументов\n");
+		ft_putstr("Неверное кол-во аргументов (должна подаваться только карта)\n");
 	else if (e == 2)
 		ft_putstr("Файл с картой не открылся\n");
 	else if (e == 3)

@@ -101,7 +101,7 @@ void	init_player(t_game *game)
 void	init_graphics(t_game *game)
 {
 	init_player(game);
-	game->zoom = 49;
+	game->zoom = 50;
 	game->resolution.x = game->parser.column_count * game->zoom;
 	game->resolution.y = game->parser.line_count * game->zoom;
 	game->graphics.mlx = mlx_init();
